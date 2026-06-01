@@ -225,7 +225,23 @@
   "SvelteKit Remote Query": {
     "prefix": "sk-rf-query",
     "body": [
-      "export const ${1:getItems} = query(${2:schema}, async (${3:params}) => {",
+      "export const ${1:getItems} = query(${2:schema}, async (${3:payload}) => {",
+      "  $0",
+      "});"
+    ]
+  },
+  "SvelteKit Remote Form": {
+    "prefix": "sk-rf-form",
+    "body": [
+      "export const ${1:formName} = form(${2:schema}, async (${3:payload}) => {",
+      "  $0",
+      "});"
+    ]
+  },
+  "SvelteKit Remote Command": {
+    "prefix": "sk-rf-command",
+    "body": [
+      "export const ${1:commandName} = command(${2:schema}, async (${3:payload}) => {",
       "  $0",
       "});"
     ]
