@@ -50,10 +50,6 @@
         "path": "./snippets/svelte-kit.json"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/svelte-kit.json"
-      },
-      {
         "language": "svelte",
         "path": "./snippets/html.json"
       },
